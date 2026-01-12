@@ -1,0 +1,12 @@
+{
+  "name": "muslim-ai-chat",
+  "version": "1.0.0",
+  "description": "Muslim AI Chatbot",
+  "main": "api/chat.js",
+  "scripts": {
+    "start": "node api/chat.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

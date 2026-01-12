@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muslim AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <i class="fas fa-mosque"></i>
+            <div>
+                <h2>Muslim AI</h2>
+                <p>Asisten Islami Cerdas</p>
+            </div>
+        </div>
+
+        <div class="chat-box" id="chat-box">
+            <div class="message bot-message">
+                <div class="avatar"><i class="fas fa-robot"></i></div>
+                <div class="content">Assalamualaikum! Saya adalah Muslim AI. Ada yang bisa saya bantu mengenai Islam, Al-Quran, atau Hadits?</div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Tulis pertanyaanmu di sini..." autocomplete="off" required>
+                <button type="submit" id="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
